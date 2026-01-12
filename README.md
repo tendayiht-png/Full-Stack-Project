@@ -1,4 +1,4 @@
-#  Individual Full-Stack Project
+#  Full-Stack Project
 
 ## Description
 The Catalyst Inclusion website is a landing page for diversity and inclusion information for employees and jobseekers interested with working at Catalyst Inclusion. The Catalyst Inclusion website aims to create a visually appealing, easy-to-navigate webpage that introduces diversity and inclusion concepts and offers basic guidance on how to implement these practices. 
