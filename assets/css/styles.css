@@ -39,19 +39,19 @@ nav li {
   display: inline-block;
   width: 80px;
   margin: 0 auto;
-  padding: 2px;
+  padding: 5px;
   }
 
 main {
   text-align: center;
   position: relative;
-  top: 2px;
+  top: 5px;
 }
 
 main h1 {
   display: flex;
   color: #331ed2;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans', Sans-serif;
   font-weight: 600;
   font-size: 70px;
   margin: 0 auto;
@@ -62,7 +62,7 @@ footer {
   display: flex;
   background-color: #331ed2;
   color: #331ed2;
-  padding: 2px;
+  padding: 5px;
   text-align: center;
   margin-bottom: 10px;
   position: fixed;
@@ -76,14 +76,14 @@ footer p {
 } 
 
 .container {
-  max-width: min-content;
+  max-width: fit-content;
   margin: 0 auto;
   text-align: center;
 }
 
-.jumbotron.jumbotron-fluid {
+.jumbotron .jumbotron-fluid {
   background-size: cover;
-  background-image: url("assets/images/DIpicture1.jpg") #fff no repeat center center "50% 50%";
+  background-image: url("assets/images/DIpicture1.jpg") no repeat center center "50% 50%";
   width: 100%;
   height: 600px;
   margin-top: auto;
@@ -96,7 +96,7 @@ footer p {
   font-weight: 600;
   font-size: 18px;
   letter-spacing: 1.3px;
-  padding: 16px 40px;
+  padding: 5px;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -106,7 +106,7 @@ footer p {
   font-weight: 600;
   font-size: 14px;
   letter-spacing: 1.3px;
-  padding: 16px 40px;
+  padding: 5px;
   text-decoration: none;
   text-transform: uppercase;  
   margin-bottom: 20px;      
@@ -115,8 +115,8 @@ footer p {
 .supporting {
   display: flex;
   text-align: center;
-  padding-top: 2px; 
-  padding-bottom: 2px;
+  padding-top: 5px; 
+  padding-bottom: 5px;
 }
 
 .supporting .col {
@@ -129,9 +129,12 @@ footer p {
 }
 
 img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   height: 5px;
-  padding: 2px;
-    }
+  width: 40%;
+  }
 
 .supporting h2 {
   display: flex;
@@ -139,20 +142,18 @@ img {
   font-weight: 600;
   font-size: 25px;
   text-transform: uppercase;
-  padding: 2px;
-}
+  }
 
 .supporting p,
 .display-4,
-.my-4,
 .lead {
   display: flex;
   text-align: center;
   font-weight: 400;
   font-size: 16px;
   line-height: 20px;
-  padding: 0 45px 15px 45px;
-  margin: 20px 0;
+  padding: 0 5px;
+  margin: auto 0;
 }
 
 .supporting a {
@@ -161,19 +162,12 @@ img {
   font-family: 'Open Sans', sans-serif;
   font-weight: 600;
   font-size: 14px;
-  letter-spacing: 2px;
+  letter-spacing: 1.3px;
   text-decoration: none;
   text-transform: uppercase;
-  padding: 10px 45px; 
-  margin-bottom: 10px;
-  border: 2px solid #333333;
+  padding: 10px 100px; 
+  margin: auto 0;
   }
-
- div {
-    width: 100%;
-    height: 600px;
-    background: #331ed2 url(assets/images/DIpicture1.jpg) no-repeat 50% 50%;
-} 
 
   /* Default background for large screens */
 body {
@@ -193,4 +187,18 @@ body {
     font-size: 0.8rem;
     flex-direction: column;
   }
+}
+.center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+}
+
+.container p {
+  margin: auto 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
