@@ -11,7 +11,7 @@ Catalyst Inclusion website is a landing page for diversity and inclusion informa
 5. Contact section
 
 ## How to View the Project
-- [View the deployed website](https://github.com/tendayiht-png/Individual-Full-Stack-Project.git)
+- [View the deployed website](https://tendayiht-png.github.io/Full-Stack-Project/)
 
 ## Credits
 - The background picture was taken from [website name](https://www.canva.com/M/MAG9u2IY9fY)
